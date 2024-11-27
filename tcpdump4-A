@@ -1,0 +1,50 @@
+                                                ┌──(user㉿user)-[~]
+└─$ sudo tcpdump -i wlan0 host 192.168.1.165
+[sudo] password for user: 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:32:16.896575 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:32:51.918289 ARP, Request who-has Joey_MoCA tell LATIN-PC, length 38
+17:32:51.918295 ARP, Request who-has 192.168.1.212 tell LATIN-PC, length 38
+17:32:51.918296 ARP, Request who-has Hopper3-br tell LATIN-PC, length 38
+17:32:52.224360 ARP, Request who-has 192.168.1.151 tell LATIN-PC, length 38
+17:32:52.838803 ARP, Request who-has 192.168.1.156 tell LATIN-PC, length 38
+17:34:05.339088 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:34:05.953807 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:34:05.953817 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:34:05.953839 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:34:06.875645 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:34:08.103689 ARP, Request who-has LATIN-PC tell LATIN-PC, length 38
+17:34:08.104112 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:34:13.019092 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:35:55.322223 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:35:56.238847 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:35:56.546299 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:35:57.467581 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:35:58.389302 ARP, Request who-has LATIN-PC tell LATIN-PC, length 38
+17:35:58.696570 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:25.116000 IP LATIN-PC.netbios-dgm > 192.168.1.255.netbios-dgm: UDP, length 201
+17:36:48.463462 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:36:48.464564 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:48.770495 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:49.385330 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:36:49.385339 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:36:49.692478 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:50.613744 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:36:51.535634 ARP, Request who-has LATIN-PC tell LATIN-PC, length 38
+17:36:51.535641 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:57.372109 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+17:36:58.602101 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:58.602108 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:36:58.909112 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:36:59.830965 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:37:00.137336 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:37:01.058753 ARP, Request who-has LATIN-PC tell localhost, length 38
+17:37:01.980568 ARP, Request who-has LATIN-PC tell LATIN-PC, length 38
+17:37:01.980576 ARP, Request who-has G3100.mynetworksettings.com tell LATIN-PC, length 38
+17:37:07.509770 ARP, Request who-has LATIN-PC (Broadcast) tell G3100.mynetworksettings.com, length 38
+^C
+40 packets captured
+40 packets received by filter
+0 packets dropped by kernel
+                                                   
